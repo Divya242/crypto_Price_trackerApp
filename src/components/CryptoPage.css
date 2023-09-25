@@ -1,0 +1,36 @@
+.crypto-mainhead {
+  color: green;
+}
+
+
+/* src/components/CryptoItem.css */
+.crypto-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.2s, transform 0.2s;
+  
+    /* Add hover effect */
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  
+    /* Add click effect */
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+  
+  /* src/components/CryptoDetail.css */
+
+  .crypto-heading {
+    color: green;
+  }
+
+  .close-btn {
+    height: 30px;
+    width: 20%;
+    background-color: rgb(237, 224, 219);
+  }
